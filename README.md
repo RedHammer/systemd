@@ -4,6 +4,9 @@ info zum autostrart
 Einen eigenen Service erstellen
 Der Service wird unter /etc/systemd/system angelegt. Dabei kann der Name beliebig gewählt werden.
 
+Unter Umständen muss die Berechtigung geändert werden:
+sudo chmod 644 /lib/systemd/system/test.service
+
 cd /etc /systemd /system
 nano your-service.service
 In die Datei your-service.service muss folgendes eingetragen werden:
