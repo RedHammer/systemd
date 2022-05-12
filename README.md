@@ -1,5 +1,5 @@
 # systemd
-info zum autostrart
+info zum autostart
 
 Einen eigenen Service erstellen
 Der Service wird unter /etc/systemd/system angelegt. Dabei kann der Name beliebig gewählt werden.
