@@ -20,6 +20,7 @@ ExecStart=/bin/bash /path/to/your-script.sh
 
 [Install]
 WantedBy=multi-user.target
+
 Unit – In diesem Block können Abhängigkeiten von anderen Services beschrieben werden, aber auch die Beschreibung für den eigentlichen Service selbst.
 
 Service - Hier werden genaue Anweisungen für den Service definiert.
